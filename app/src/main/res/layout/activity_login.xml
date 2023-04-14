@@ -4,6 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF6464"
     tools:context=".activity.LoginActivity">
+
+<EditText
+    android:id="@+id/promat_username"
+    android:layout_width="315dp"
+    android:layout_height="50dp"
+    android:background="@color/white"
+    android:alpha="0.8"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/promat_pwd"
+    android:layout_marginBottom="22dp"
+    android:hint="@string/prompt_username"
+    android:inputType="textPhonetic"
+    tools:ignore="MissingConstraints">
+</EditText>
+    <EditText
+        android:id="@+id/promat_pwd"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:alpha="0.8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/text_forgotpwd"
+        android:hint="@string/prompt_pwd"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints">
+    </EditText>
+
+
+        <TextView
+            android:id="@+id/text_forgotpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_forgotpwd"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintBottom_toTopOf="@+id/button_login"
+            app:layout_constraintRight_toRightOf="@+id/button_login"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp"
+            android:textSize="12dp"
+            ></TextView>
+
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:background="#FF0000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="80dp"
+        android:text="登录/注册"
+        android:textColor="#D8D8D8"
+        android:textSize="20dp"
+        >
+    </Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

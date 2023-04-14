@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">otaku</string>
+    <string name="prompt_username">用户名</string>
+    <string name="prompt_pwd">密码</string>
+    <string name="text_rememberme">记住我</string>
+    <string name="text_forgotpwd">忘记密码？</string>
 </resources>

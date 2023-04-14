@@ -16,5 +16,9 @@ public abstract class BaseActivity  extends AppCompatActivity implements BaseInt
     }
 
 
+    /**
+     * 需要所有子类实现的方法
+     * 记录进入当前活动页的基本信息
+     */
     public abstract void  logInfo();
 }
