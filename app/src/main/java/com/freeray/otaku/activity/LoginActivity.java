@@ -10,6 +10,7 @@ public class LoginActivity extends BaseActivity {
 
     public String TAG = "abv";
 
+    //github test
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
