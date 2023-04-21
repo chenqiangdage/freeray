@@ -1,4 +1,4 @@
-package com.freeray.otaku.model;
+package com.freeray.otaku.entity;
 
 import java.io.Serializable;
 
