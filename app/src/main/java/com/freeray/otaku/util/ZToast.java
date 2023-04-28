@@ -4,11 +4,10 @@ import android.app.Activity;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
-import com.android.zhhr.R;
-import com.android.zhhr.ui.custom.ToastLayout;
+import com.freeray.otaku.view.ToastLayout;
 
 /**
- * Created by zhhr on 2018/3/27.
+ * Created by  α-ray
  */
 
 public class ZToast {

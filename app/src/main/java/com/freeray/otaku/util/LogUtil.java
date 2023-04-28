@@ -1,7 +1,7 @@
 package com.freeray.otaku.util;
 
 /**
- * Created by DELL on 2018/2/12.
+ * Created by α-ray
  */
 
 import android.util.Log;
