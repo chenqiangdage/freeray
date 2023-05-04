@@ -20,7 +20,7 @@ import okhttp3.OkHttpClient;
 public class MainNetRetrofit {
     public BaseNetService baseNetService;
 
-    public static final String BASE_URL = Url.TencentComicChapters1;
+    public static final String DemoUrl = Url.DemoUrl;
 
     private static final int DEFAULT_TIMEOUT = 5;
 
@@ -51,7 +51,7 @@ public class MainNetRetrofit {
                 .client(client)
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                .baseUrl(BASE_URL)
+                .baseUrl(DemoUrl)
                 .build();
 
         baseNetService = retrofit.create(BaseNetService.class);

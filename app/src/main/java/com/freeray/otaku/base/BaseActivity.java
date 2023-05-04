@@ -6,7 +6,9 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public abstract class BaseActivity  extends AppCompatActivity implements BaseInterface{
+import com.freeray.otaku.presenter.BasePresenter;
+
+public abstract class BaseActivity<P extends BasePresenter>  extends AppCompatActivity implements BaseInterface{
 
     private static  final  String TAG="Base";
     @Override

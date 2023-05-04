@@ -21,4 +21,6 @@ public class LoginActivity extends BaseActivity {
     public void  logInfo(){
         Log.d(TAG, "onCreate: "+TAG);
     }
+
+
 }

@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
+import com.freeray.otaku.R;
 import com.freeray.otaku.view.ToastLayout;
 
 /**
