@@ -4,12 +4,15 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
+//import android.support.annotation.Nullable;
+//import android.support.annotation.RequiresApi;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
 import com.freeray.otaku.R;
 import com.freeray.otaku.base.commonconst.Constants;
@@ -39,7 +42,7 @@ public abstract class BasicActivity<P extends BasePresenter>  extends RxAppCompa
     protected abstract void initView();
 
     @Override
-    protected void onCreate(@Nullable @androidx.annotation.Nullable Bundle savedInstanceState) {
+    protected void onCreate(@Nullable  Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //此段代码段作用
         //app 在应用市场下载完成后，点击打开，按照 app 的一般流程首先会启动 Splash 界面，再进入首页。此时你按下 home 键，

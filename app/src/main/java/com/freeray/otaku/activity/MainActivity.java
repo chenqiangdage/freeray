@@ -2,6 +2,7 @@ package com.freeray.otaku.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -21,5 +22,20 @@ public class MainActivity extends BaseActivity {
     @Override
     public void  logInfo(){
         Log.d(TAG, "onCreate: "+TAG);
+    }
+
+    @Override
+    protected void initPresenter(Intent intent) {
+
+    }
+
+    @Override
+    protected int getLayout() {
+        return 0;
+    }
+
+    @Override
+    protected void initView() {
+
     }
 }
